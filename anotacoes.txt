@@ -1,0 +1,21 @@
+--- COMANDOS ---
+ 
+*** npm i -D typescript @types/express @types/node *** 
+-D -> apenas para desenvolvedor (devDependencies)
+@types/express -> pacote de tipagem do express
+@types/node -> pacote de tipagem do node
+-> As DEV DEPENDENCIES são dependências que não precisam ser 
+levadas para compilação (typescript é deveDependencie pois é transpilado para js)
+
+*** npm i ts-node-dev -D ***
+-> Para atualizar o servidor sem precisar reiniciar e transpilar o typescript
+
+*** npx tsc --init ****
+Cria um arquivo do ts config
+
+ts-node-dev --respawn --transpile-only
+
+--- API ---
+
+res.status() -> realiza uma ação conforme o status passado 
+(se for passado 200, vai realizar a ação quando houver sucesso)
