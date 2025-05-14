@@ -2,9 +2,20 @@
 
 ## Commands
 
+### Run Project
+
+``` console
+    npm run dev
+```
+
 ### Create Migration
 
-```
-    console
+``` console
     npm run migration:create <migration name>
+```
+
+### Run Migration
+
+```console 
+    npm run migration
 ```
